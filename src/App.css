@@ -1,38 +1,36 @@
-.App {
-  text-align: center;
+h1 {
+  font-family: "SEGA LOGO FONT";
+  font-size: 3em;
+  font-weight: 600;
+  padding-top: 0.5em;
+  text-transform: uppercase;
+  color: aquamarine;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.fnf-card {
+  width: fit-content;
+  background-color: gainsboro;
+  cursor: pointer;
+  transition: ease-in 0.2s;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.fnf-card:hover {
+  transform: scale(1.05);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.search-box {
+  padding: 5px 10px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  min-width: 200px;
+}
+
+.loading {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card-list {
+  overflow-y: scroll;
+  height: 80vh;
+  border-top: 1px solid aquamarine;
 }
