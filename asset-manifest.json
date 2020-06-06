@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/fnf-library/static/css/main.8889b50d.chunk.css",
+    "main.js": "/fnf-library/static/js/main.fc2c3cd2.chunk.js",
+    "main.js.map": "/fnf-library/static/js/main.fc2c3cd2.chunk.js.map",
+    "runtime-main.js": "/fnf-library/static/js/runtime-main.e2bd8728.js",
+    "runtime-main.js.map": "/fnf-library/static/js/runtime-main.e2bd8728.js.map",
+    "static/js/2.b4fa165c.chunk.js": "/fnf-library/static/js/2.b4fa165c.chunk.js",
+    "static/js/2.b4fa165c.chunk.js.map": "/fnf-library/static/js/2.b4fa165c.chunk.js.map",
+    "index.html": "/fnf-library/index.html",
+    "precache-manifest.75bccfbd75d60b4f8f08848dcadca5b3.js": "/fnf-library/precache-manifest.75bccfbd75d60b4f8f08848dcadca5b3.js",
+    "service-worker.js": "/fnf-library/service-worker.js",
+    "static/css/main.8889b50d.chunk.css.map": "/fnf-library/static/css/main.8889b50d.chunk.css.map",
+    "static/js/2.b4fa165c.chunk.js.LICENSE.txt": "/fnf-library/static/js/2.b4fa165c.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/fnf-library/static/media/SEGA.12a3db8b.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e2bd8728.js",
+    "static/js/2.b4fa165c.chunk.js",
+    "static/css/main.8889b50d.chunk.css",
+    "static/js/main.fc2c3cd2.chunk.js"
+  ]
+}
