@@ -1,4 +1,10 @@
-import { searchContact } from "./reducers";
-import { createStore } from "redux";
+import { searchContact, onRequestData } from "./reducers";
+import { createStore, combineReducers, applyMiddleware } from "redux";
 
-export const store = createStore(searchContact);
+// async redux middleware
+import thunk from "redux-thunk";
+
+export const store = createStore(
+  combineReducers({ searchContact, onRequestData }),
+  applyMiddleware(thunk)
+);
