@@ -9,6 +9,7 @@ const initialSearchState = {
   searchField: "",
 };
 
+// reducer for updating a search field
 export const searchContact = (state = initialSearchState, action = {}) => {
   switch (action.type) {
     case CHANGE_SEARCH_FIELD:
@@ -24,6 +25,7 @@ const initialDataState = {
   error: "",
 };
 
+// reducer for updating a data
 export const onRequestData = (state = initialDataState, action = {}) => {
   switch (action.type) {
     case REQUEST_DATA_PENDING:
